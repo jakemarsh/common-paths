@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "common-paths"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Adds shortcuts in the form of static vars to NSURL for commonly used directory paths."
   s.homepage         = "https://github.com/jakemarsh/common-paths"
   s.license          = 'MIT'
