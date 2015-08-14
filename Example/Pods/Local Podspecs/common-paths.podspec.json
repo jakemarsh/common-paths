@@ -1,0 +1,25 @@
+{
+  "name": "common-paths",
+  "version": "0.1.0",
+  "summary": "A short description of common-paths.",
+  "description": "An optional longer description of common-paths\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/common-paths",
+  "license": "MIT",
+  "authors": {
+    "Jake Marsh": "jake@thejakemarsh.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/common-paths.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "common-paths": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

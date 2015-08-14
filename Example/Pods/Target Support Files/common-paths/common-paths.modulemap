@@ -1,0 +1,6 @@
+framework module common_paths {
+  umbrella header "common-paths-umbrella.h"
+
+  export *
+  module * { export * }
+}

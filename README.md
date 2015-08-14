@@ -1,6 +1,6 @@
 # common-paths
 
-[![CI Status](http://img.shields.io/travis/Jake Marsh/common-paths.svg?style=flat)](https://travis-ci.org/Jake Marsh/common-paths)
+[![CI Status](http://img.shields.io/travis/jakemarsh/common-paths.svg?style=flat)](https://travis-ci.org/jakemarsh/common-paths)
 [![Version](https://img.shields.io/cocoapods/v/common-paths.svg?style=flat)](http://cocoapods.org/pods/common-paths)
 [![License](https://img.shields.io/cocoapods/l/common-paths.svg?style=flat)](http://cocoapods.org/pods/common-paths)
 [![Platform](https://img.shields.io/cocoapods/p/common-paths.svg?style=flat)](http://cocoapods.org/pods/common-paths)
@@ -22,7 +22,7 @@ pod "common-paths"
 
 ## Author
 
-Jake Marsh, jake@thejakemarsh.com
+Jake Marsh, jake@deallocatedobjects.com
 
 ## License
 

@@ -10,19 +10,12 @@
 Pod::Spec.new do |s|
   s.name             = "common-paths"
   s.version          = "0.1.0"
-  s.summary          = "A short description of common-paths."
-  s.description      = <<-DESC
-                       An optional longer description of common-paths
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/common-paths"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "Adds shortcuts in the form of static vars to NSURL for commonly used directory paths."
+  s.homepage         = "https://github.com/jakemarsh/common-paths"
   s.license          = 'MIT'
   s.author           = { "Jake Marsh" => "jake@thejakemarsh.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/common-paths.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/jakemarsh/common-paths.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/jakemarsh'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -31,8 +24,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'common-paths' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
